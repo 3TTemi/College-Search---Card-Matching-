@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>College Search</title>
+    <link rel="stylesheet" type="text/css" href="collegeStyle.css">
+    <script src="colleges.js" defer> </script>
+
+</head>
+
+<body id="body">
+
+    <h1> Bay Area Colleges and Universities</h1>
+
+    <div id = "criteriaContent">
+    <div id="searchBox">
+
+        <div id="titleBox">
+            <h3> Search Criteria</h3>
+        </div>
+
+        <div id="radioBox">
+            <input name = "status" type="radio" value = "public"> <label>Public</label>
+            <input name = "status" type="radio" value = "private"> <label>Private</label>
+            <input name = "status" type="radio" value = "both"> <label>Don't Care</label>
+        </div>
+
+        <div class="textBox">
+            <div class="verticalP">
+                <p>Maximum Tuition</p>
+                <p>leave blank for don't care</p>
+            </div>
+            <input type="text" id = "maxTuition">
+        </div>
+
+        <div class="textBox">
+            <div class="verticalP">
+                <p>Maximum High SAT</p>
+                <p>leave blank for don't care</p>
+            </div>
+
+            <input type="text" id = "maxSAT">
+        </div>
+
+
+        <div class="textBox">
+            <div class="verticalP">
+                <p>Minimum Low SAT</p>
+                <p>leave blank for don't care</p>
+            </div>
+            <input type="text" id = "lowSAT">
+        </div>
+
+    </div>
+
+    <input  id = "updateButton" type="button" value="Update">
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+#searchBox 
+{
+    float: right;
+    margin-right: 40%;
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.textBox
+{
+    display: flex;
+    margin: 0px;
+}
+
+.verticalP
+{
+    display: flex;
+    flex-direction: column;
+
+  
+
+}
+
+input[type=text]
+{
+
+    height: 30px;
+}
+
+#titleBox
+{
+    background-color: #444444;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p 
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#radioBox
+{
+    margin-bottom: 10px;
+}
+
+.textBox
+{
+    margin-bottom: 10px;
+}
+
+.verticalP
+{
+    margin-right: 60px;
+}
+
+input[type=button]
+{
+    float: right;
+    margin-top: 30px;
+    margin-right: -55px;
+    /* position: relative;
+    top: 250px;
+    left: 500px; */
+    width: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+tr, td
+{
+    border: 1px solid #666666;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #dddddd;
+}
+
+th
+{
+    background-color: #444444;
+    color: white;
+    border-right: 1px solid #666666;
+
+}
+
+td {
+    padding: 5px;
+}
+
+th
+{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+table
+{
+    margin-left: 10px;
+}
+
+#criteriaContent
+{
+width: 50%;
+height: 400px;
+margin-right: 300px;
+float: right;
+display: flex;
+flex-direction: column;
+}
